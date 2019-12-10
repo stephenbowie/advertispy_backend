@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "advertispyusers",
+  "info": {
+    "name": "advertispyusers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "advert_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}
